@@ -28,6 +28,7 @@ public class Database {
     public Connection getConnection(){
         return connection;
     }
+
     public void close(){
         try {
             connection.close();

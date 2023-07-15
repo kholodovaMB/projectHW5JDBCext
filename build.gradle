@@ -4,7 +4,6 @@ plugins {
 
 group 'org.HMB'
 version '1.0-SNAPSHOT'
-
 repositories {
     mavenCentral()
 }

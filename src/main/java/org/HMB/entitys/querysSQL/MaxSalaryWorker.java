@@ -3,7 +3,6 @@ package org.HMB.entitys.querysSQL;
 public class MaxSalaryWorker {
     private String name;
     private int maxSalaryWorker;
-
     public MaxSalaryWorker(String name, int maxSalaryWorker) {
         this.name = name;
         this.maxSalaryWorker = maxSalaryWorker;

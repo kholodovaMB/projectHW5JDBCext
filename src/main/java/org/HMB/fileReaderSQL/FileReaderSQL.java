@@ -7,7 +7,6 @@ import java.io.IOException;
 public class FileReaderSQL {
     public String readSQLFile(String filePath) {
         StringBuilder sqlFile = new StringBuilder();
-
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {

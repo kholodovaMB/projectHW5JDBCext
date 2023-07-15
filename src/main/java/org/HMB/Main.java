@@ -31,14 +31,13 @@ public class Main {
             System.out.println("result not found");
         }
 
-
         List<LongestProject> maxLongestProjects = service.findLongestProject();
         if (!Objects.isNull(maxLongestProjects)) {
             for (LongestProject project : maxLongestProjects) {
                 System.out.println(project.toString());
             }
         } else {
-            System.out.println("result not found");
+            System.out.println("result not found!");
         }
 
         List<YoungestEldestWorkers> typeWorkers = service.findLYoungestEldestWorkers();
