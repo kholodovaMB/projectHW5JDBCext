@@ -4,6 +4,7 @@ public class ProjectsPrices {
 
     private int id;
     private Long price;
+
     public ProjectsPrices(int id, Long price) {
         this.id = id;
         this.price = price;

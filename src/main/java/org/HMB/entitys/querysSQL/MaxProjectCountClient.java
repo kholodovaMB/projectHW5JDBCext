@@ -8,6 +8,7 @@ public class MaxProjectCountClient {
         this.name = name;
         this.projectCount = projectCount;
     }
+
     public String getName() {
         return name;
     }

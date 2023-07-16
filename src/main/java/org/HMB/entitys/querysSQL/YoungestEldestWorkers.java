@@ -6,6 +6,7 @@ public class YoungestEldestWorkers {
     private String type;
     private String name;
     private LocalDate birthday;
+
     public YoungestEldestWorkers(String type, String name, LocalDate birthday) {
         this.type = type;
         this.name = name;

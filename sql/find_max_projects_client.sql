@@ -7,4 +7,5 @@ HAVING COUNT(*) = (SELECT MAX(project_count)
     SELECT COUNT(*) AS project_count
     FROM project
     GROUP BY CLIENT_ID
-  ) project);
+  ) project
+);

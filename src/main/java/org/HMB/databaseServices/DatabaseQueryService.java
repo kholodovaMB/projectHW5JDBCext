@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseQueryService {
+
     private final Connection connection;
 
     public DatabaseQueryService(Connection connection) {

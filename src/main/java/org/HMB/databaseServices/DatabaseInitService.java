@@ -11,6 +11,7 @@ public class DatabaseInitService {
     public static void main(String[] args) {
         String sqlFile = "./sql/init_db.sql";
         String sqlQuery = new FileReaderSQL().readSQLFile(sqlFile);
+
         Connection connection = Database.getInstance().getConnection();
         try (Statement statement = connection.createStatement()) {
             statement.execute(sqlQuery);
