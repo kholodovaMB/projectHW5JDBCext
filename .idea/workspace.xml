@@ -4,31 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f220f5f-ab63-4459-9492-7c044036264b" name="Changes" comment="hw 5">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/find_longest_project.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/find_longest_project.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/find_max_projects_client.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/find_max_projects_client.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/find_max_salary_worker.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/find_max_salary_worker.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/find_youngest_eldest_workers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/find_youngest_eldest_workers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/init_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/init_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/insert_client.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/insert_project.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/insert_project_worker.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/populate_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/populate_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/print_project_prices.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/print_project_prices.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/dataBaseConfigurate/ConfigurateDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/dataBaseConfigurate/ConfigurateDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabaseInitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabaseInitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabasePopulateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabasePopulateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabaseQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DatabaseQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/LongestProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/LongestProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/MaxProjectCountClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/MaxProjectCountClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/MaxSalaryWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/MaxSalaryWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/ProjectsPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/ProjectsPrices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/YoungestEldestWorkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/entitys/querysSQL/YoungestEldestWorkers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HMB/fileReaderSQL/FileReaderSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HMB/fileReaderSQL/FileReaderSQL.java" afterDir="false" />
+    <list default="true" id="9f220f5f-ab63-4459-9492-7c044036264b" name="Changes" comment="init hw 5 v1">
+      <change afterPath="$PROJECT_DIR$/sql/inserr_worker.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/insert_client.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/insert_project.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/insert_project_worker.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HMB/databaseServices/DataBaseInsertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +33,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="projectHW5JDBCext" type="f1a62948:ProjectNode" />
+                <item name="projectHW4JDBC" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="projectHW5JDBCext" type="f1a62948:ProjectNode" />
+                <item name="projectHW4JDBC" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="projectHW5JDBCext" type="f1a62948:ProjectNode" />
+                <item name="projectHW4JDBC" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -71,8 +53,16 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,16 +73,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/ekaterinatkachenko/IdeaProjects/projectHW5JDBCext/sql",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.projectHW5JDBCext [jar]">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.projectHW5JDBCext [clean]">
     <configuration name="projectHW5JDBCext [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.projectHW5JDBCext [jar]" />
         <item itemvalue="Gradle.projectHW5JDBCext [clean]" />
+        <item itemvalue="Gradle.projectHW5JDBCext [jar]" />
         <item itemvalue="Gradle.projectHW5JDBCext [build]" />
       </list>
     </recent_temporary>
@@ -180,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689457564992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init hw 5">
+      <created>1689495919188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689495919188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init hw 5 v1">
+      <created>1689496094224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689496094224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 5" />
+    <MESSAGE value="init hw 5" />
+    <MESSAGE value="init hw 5 v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="init hw 5 v1" />
   </component>
 </project>
